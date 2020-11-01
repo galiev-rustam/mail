@@ -1,0 +1,64 @@
+.actions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.actions span {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #8e8e93;
+  margin-left: 10px;
+}
+.left_panel {
+  margin-bottom: 20px;
+}
+.label {
+  margin-bottom: 22px;
+}
+.italic {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #81869f;
+}
+.user_mail p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  color: #323232;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 0;
+}
+.user_name p {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #323232;
+  margin: 0;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+}
+.user_info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.left_panel span {
+  cursor: pointer;
+}
+.left_panel a {
+  text-decoration: none;
+}
+.active span {
+  color: #4c4f59;
+}

@@ -1,0 +1,112 @@
+.inbox_content {
+}
+.inbox_content {
+  width: 334px;
+  height: 100%;
+  background: #f9f9f9;
+  backdrop-filter: blur(27.1828px);
+}
+.search_input {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.search_input input {
+  width: 275px;
+  height: 35px;
+  padding: 3px 35px;
+  box-sizing: border-box;
+  border: none;
+  border: 1px solid rgba(151, 151, 151, 0.101591);
+  box-sizing: border-box;
+  border-radius: 21.5px;
+  background: url(../img/search.png) no-repeat 14px center #ffffff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.header h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4c4f59;
+}
+.sort span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #484c51;
+}
+.sort span:nth-of-type(1) {
+  margin-right: 5px;
+}
+.sort select {
+  border: none;
+  background: #f9f9f9;
+  backdrop-filter: blur(27.1828px);
+}
+.messages {
+  height: 544px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.messages::-webkit-scrollbar {
+  width: 0;
+}
+.message_block a {
+  text-decoration: none;
+}
+.active_message .info {
+  background: #ffffff;
+  border-left: 4px solid #379aff;
+}
+.header_message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.subject_message {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  color: #4c4f59;
+  margin: 0;
+}
+.date_message {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4c4f59;
+  margin: 0;
+}
+.sender_message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sender_message p {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #a3a3a8;
+  margin-left: 20px;
+}
+.hr_message {
+  margin: 0;
+  width: 334px;
+  border: 1px solid #ededed;
+}
+.info {
+  padding: 25px;
+}

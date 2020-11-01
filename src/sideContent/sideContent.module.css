@@ -1,0 +1,103 @@
+.logo_actions {
+  margin: 30px;
+}
+.logo_actions img {
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.logo_actions img:hover {
+  background: #abcdef;
+  border-radius: 55%;
+}
+.hr {
+  margin: 0;
+  width: 100%;
+  border: 1px solid #ededed;
+}
+.message_info {
+  margin-left: 24px;
+}
+.object {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4c4f59;
+  margin: 24px;
+  margin-left: 0;
+}
+.user_photo img {
+  height: 45px;
+  width: 45px;
+}
+.sender {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.user_info {
+  margin-left: 10px;
+}
+.user_name {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4c4f59;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.user_mail {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4c4f59;
+  margin: 0;
+}
+.message_data {
+  margin-left: auto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #4c4f59;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+.message_text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #65676e;
+  margin-bottom: 25px;
+}
+.attachment {
+  width: 111px;
+  height: 45px;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  margin-top: 28px;
+  padding: 8px;
+}
+.attachment_name {
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  color: #2e2e2e;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: 4px;
+}
+.message_actions {
+  margin-top: 40px;
+}
+.message_actions button {
+  margin-right: 15px;
+}
