@@ -66,6 +66,9 @@
   background: #ffffff;
   border-left: 4px solid #379aff;
 }
+.active_message img {
+  display: none;
+}
 .header_message {
   display: flex;
   justify-content: space-between;
@@ -109,4 +112,10 @@
 }
 .info {
   padding: 25px;
+}
+.unread {
+  margin: 0;
+  position: relative;
+  left: 5px;
+  top: 15px;
 }

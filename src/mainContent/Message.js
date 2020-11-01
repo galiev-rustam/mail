@@ -2,9 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import style from "./mainContent.module.css";
 import clipLogo from "../img/clip.png";
+import unreadLogo from "../img/unreadLogo.png";
 
 const Message = (props) => {
   // console.log(props);
+  let undead = false;
+
   return (
     <div className={style.message_block}>
       <NavLink
@@ -12,6 +15,7 @@ const Message = (props) => {
         activeClassName={style.active_message}
       >
         <div className={style.info}>
+          <img src={unreadLogo} alt="unreadLogo" className={style.unread} />
           <div className={style.header_message}>
             <p className={style.subject_message}>{props.message.subject}</p>
             <p className={style.date_message}>{props.message.date}</p>

@@ -29,7 +29,6 @@ const Inbox = ({ messages }) => {
 };
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return {
     messages: state.messages.message,
   };
